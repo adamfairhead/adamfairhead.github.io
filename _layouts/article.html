@@ -1,0 +1,22 @@
+---
+layout: layout
+---
+<article>
+  <header>
+    <h1>{{ page.title }}</h1>
+    <p class="meta">Published {{ page.date | date_to_string }}</p>
+  </header>
+  <div role="main">
+    {{ content }}
+
+    <ul>
+      <!--<li><a href="#">Get notified when I write something new</a></li>-->
+      {% if page.next.url %}
+      <li>Next article: <a href="{{ page.next.url }}" title="{{ page.next.title }}">"{{ page.next.title }}"</a></li>
+      {% endif %}
+      {% if page.previous.url %}
+      <li>Previous article: <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">"{{ page.previous.title }}"</a></li>
+      {% endif %}
+    </ul>
+  </div>
+</article>

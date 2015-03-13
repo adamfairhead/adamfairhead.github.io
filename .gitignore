@@ -1,0 +1,19 @@
+# Numerous always-ignore extensions
+*.ai
+*.zip
+*.psd
+*.diff
+*.vi
+*.swp
+*~
+*.sass-cache
+.sass-cache
+.sass-cache/*
+
+# Files to ignore
+Gemfile.lock
+_site
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db

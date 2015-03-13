@@ -1,0 +1,7 @@
+timezone:    America/New_York
+permalink:   /:title/
+excerpt_separator: '<!--more-->'
+
+sass:
+  sass_dir: _sass
+  style: :compressed

@@ -1,0 +1,21 @@
+---
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for page in site.pages %}{% if page.class == 'home' %}
+  <url>
+    <loc>http://adamfairhead.com{{ page.url | remove: 'index.html' }}</loc>
+    <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  {% endif %}{% endfor %}
+  {% for post in site.posts %}
+  <url>
+    <loc>http://adamfairhead.com{{ post.url | remove: 'index.html' }}</loc>
+    <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  {% endfor %}
+</urlset>

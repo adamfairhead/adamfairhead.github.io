@@ -1,0 +1,87 @@
+---
+---
+@import 'normalize';
+@import 'bourbon/bourbon';
+@import 'base/grid-settings';
+@import 'base/base';
+@import 'neat/neat';
+
+@font-face {
+  font-family: 'Chaparral Pro';
+  src: url('../fonts/chaparralpro-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans-regular-webfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans-semibold-webfont.woff') format('woff');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../fonts/opensans-italic-webfont.woff') format('woff');
+  font-style: italic;
+}
+
+body {
+  font-family: 'Open Sans';
+}
+
+h1,
+h2 {
+  font-family: 'Chaparral Pro';
+  font-weight: normal;
+  letter-spacing: -0.02em;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+article {
+  max-width: em(570);
+  margin: 0 auto;
+  padding: 0 1em;
+
+  .article-index & {
+    margin-bottom: 5em;
+  }
+}
+
+ul[role="navigation"] {
+  li {
+    display: inline-block;
+    margin: 1em .75em;
+    font-size: em(14);
+    
+    a {
+      color: $light-gray;
+
+      &:hover {
+        color: $base-link-color;
+      }
+    }
+  }
+}
+
+.signature {
+  width: 165px;
+  height: 38px;
+  background: url('../images/signature.svg') center no-repeat;
+  margin: 3em auto 4em;
+}
+
+[role="main"] {
+  padding-bottom: 4em;
+
+  ul li {
+    list-style: disc inside;
+    margin-bottom: .3em;
+  }
+}
