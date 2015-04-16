@@ -9,7 +9,7 @@ title: Meet Adam
 
 I got my taste for business as a creative outlet way back in high school. Back when Pokémon cards were currency, and 720Kb could store everything you could ever need.
 
-It was through a combination of my own version of the Pokémon trading card game and some minigames on floppy disks that I realized that a great customer experience is what really matters most when you're selling things.
+It was through a combination of my own design of a Pokémon trading card game and some custom minigames on floppy disks that I realized that a great customer experience is what really matters most when you're selling things.
 
 I learned how to add enough value to my trading card game that I could steal away sales from the popular Nintendo-backed trading card game at our campus, and how to sell my own computer games when thousands were available for free online.
 
