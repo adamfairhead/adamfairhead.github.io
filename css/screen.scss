@@ -71,9 +71,10 @@ ul[role="navigation"] {
 }
 
 .signature {
-  width: 165px;
-  height: 38px;
+  width: 200px;
+  height: 70px;
   background: url('../images/signature.svg') center no-repeat;
+  background-size: contain;
   margin: 3em auto 4em;
 }
 
