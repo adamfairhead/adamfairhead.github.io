@@ -5,18 +5,34 @@ class: home
 permalink: about/
 title: Meet Adam
 ---
-> Adam Fairhead is a tea-drinking, business-loving Brit that believes in turning ideas into reality and pains into delight. He spends most of his time in various parts of sunny USA, where he's helped hundreds of businesses grow online.
+**ADAM FAIRHEAD** makes things. Things that are designed to help difference-makers make a difference. He writes about honest business, meaningful marketing and creating change.
 
-I got my taste for business as a creative outlet way back in high school. Back when Pokémon cards were currency, and 720Kb could store everything you could ever need.
+He's got a book coming out soon. He probably shouldn’t have eaten it. (Hat-tip, Milton Jones)
 
-It was through a combination of my own design of a Pokémon trading card game and some custom minigames on floppy disks that I realized that a great customer experience is what really matters most when you're selling things.
+Adam leads [Fairhead Group](http://fairhead.net).
 
-I learned how to add enough value to my trading card game that I could steal away sales from the popular Nintendo-backed trading card game at our campus, and how to sell my own computer games when thousands were available for free online.
+## Back Story
 
-In college, I learned how to pay rent using passive income selling ‘virtual clothes’, of all things. I also learned how to build websites that had a positive influence on sales.
+Some of my earliest memories are of making and selling things that I thought people would love.
 
-Later, I started a website design agency in the UK that helped other businesses better connect with their audiences. This venture grew, supporting me as I traveled, met my wife and immigrated to the United States. I've since worked with a variety of great people, and created some great experiences for customers.
+As a 5 year old, when the weather was nice, I remember making jigsaws and drawings of Power Rangers, then settong up a table at the end of our driveway to sell them to adults. I learned about product-market fit.
 
-**It's my experience - and my belief - that a superior customer experience can make meaningful businesses grow exponentially, irrespective of competition, and rise to the top of their industries.**
+At 11, when I discovered computers, and started making online minigames for my friends to play during school lunch breaks, I learned about gathering feedback and iterating on your products.
 
-I wonder if that's something you're interested in. Or if it's something that you want for your business. If it is, email me at adam&nbsp;at&nbsp;adam&nbsp;fairhead&nbsp;dot&nbsp;com. I'll be delighted to meet you.
+At 13, when Pokémon cards became the only currency that mattered, and I created a Pokémon trading card game. I learned about distribution. Friends would come over after school to cut/pack them, and get a small commission for sales the following day.
+
+At 15, when 720Kb was a lot of storage space, I created and sold larger video games on floppy disks. I learned about marketing, and that the packaging and presentation was what stood between my games and my $3 pay-days.
+
+At 16, when our house got broadband, I created and circulated an illustrated comic on an online community site. I learned about partnerships, and accessing an audience.
+
+At 17, when online gaming became popular, I created an online community website to source news and team announcements. I learned about leading a tribe, and building a list.
+
+At 20, when 'virtual worlds' were a thing, I created and sold a line of 'virtual clothes', of all things. It paid rent. I learned about passive income, and about building a brand.
+
+At 23, when I graduated university, I became a freelancer. I designed and developed websites for clients. I learned about running a business.
+
+At 26, when I felt a spirit call to serve with a church, I learned about the heart behind the things we create, about about the importance of making a difference.
+
+At 28, I expanded my business to a team with a mission: to help difference-makers make a difference.
+
+That's still our mission.
