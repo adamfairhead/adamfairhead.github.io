@@ -12,8 +12,6 @@ In our house, there’s normally something creative going on. As I look around m
 
 *Opportunities for creativity*. Or, constraints, as they’re perhaps more commonly known.
 
-***
-
 Good design is, by definition, throwing circumstance at a proposed solution to see if can stand it. Circumstance shapes the solution.
 
 Examples of circumstances could be old web browsers, or a change in audience, or a flimsy internet connection.

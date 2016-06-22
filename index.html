@@ -3,25 +3,31 @@ layout: layout
 title: Adam Fairhead
 class: home
 ---
-{% for post in site.posts limit:1 %}
 <article>
+{% for post in paginator.posts %}
   <header>
-    <h1>{{ post.title }}</h1>
+    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <!-- This article was published {{ post.date | date_to_string }} :) -->
     <p class="meta">by Adam Fairhead</p>
   </header>
   <div role="main">
     {{ post.content }}
-
-    <ul>
-      <!--<li><a href="#">Get notified when I write something new</a></li>-->
-      {% if post.next.url %}
-      <li>Next article: <a href="{{ post.next.url }}" title="{{ post.next.title }}">"{{ post.next.title }}"</a></li>
-      {% endif %}
-      {% if post.previous.url %}
-      <li>Previous article: <a href="{{ post.previous.url }}" title="{{ post.previous.title }}">"{{ post.previous.title }}"</a></li>
-      {% endif %}
-    </ul>
   </div>
-</article>
+
+  <hr />
 {% endfor %}
+
+<div class="pagination">
+  <div role="main">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="previous">Newer Posts</a>
+    {% else %}
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="next">Older Posts</a>
+    {% else %}
+    {% endif %}
+  </div>
+</div>
+
+</article>

@@ -1,6 +1,8 @@
 timezone:    America/New_York
 permalink:   /:title/
 excerpt_separator: '<!--more-->'
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 sass:
   sass_dir: _sass
