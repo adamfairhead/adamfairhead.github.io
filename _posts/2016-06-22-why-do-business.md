@@ -5,13 +5,13 @@ permalink: why-do-business/
 ---
 What business are you in?
 
-A business exists to do one of two things.
+A business exists for one of two reasons.
 
 One reason, is to get rich and fat.
 
 The other reason, is to make the world better.
 
-These two options are true for employees, as well as business owners. And you can only choose one.
+These options are true for employees, as well as business owners. And you can only choose one.
 
 The wealthy know which one to choose.
 
