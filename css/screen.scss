@@ -6,6 +6,7 @@
 @import 'base/base';
 @import 'neat/neat';
 
+
 @font-face {
   font-family: 'Chaparral Pro';
   src: url('../fonts/chaparralpro-regular-webfont.woff') format('woff');
@@ -28,8 +29,14 @@
   font-style: italic;
 }
 
+.about h1 { display: none; }
+
 body {
   font-family: 'Open Sans';
+  max-width: em(600);
+  padding: 0 1em;
+  margin: 0 auto 4em;
+  -webkit-font-smoothing: inherit;
 }
 
 h1,
@@ -40,14 +47,20 @@ h2 {
 }
 
 header {
-  text-align: center;
   margin-bottom: 2em;
 }
 
+
+
 article {
-  max-width: em(570);
-  margin: 0 auto;
-  padding: 0 1em;
+
+  header {
+    margin-bottom: 1em;
+  }
+
+  header a {
+    color: $base-font-color;
+  }
 
   .article-index & {
     margin-bottom: 5em;
@@ -75,14 +88,19 @@ ul[role="navigation"] {
   height: 70px;
   background: url('../images/signature.svg') center no-repeat;
   background-size: contain;
-  margin: 3em auto 4em;
+  margin: 3em 0 4em;
 }
 
 [role="main"] {
-  padding-bottom: 4em;
+  padding-bottom: 1em;
 
   ul li {
     list-style: disc inside;
     margin-bottom: .3em;
   }
+}
+
+hr {
+  margin-bottom: 3em;
+  border-color: #eee;
 }

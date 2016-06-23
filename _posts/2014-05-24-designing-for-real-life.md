@@ -4,7 +4,6 @@ title: Designing for Real Life
 ---
 
 Designers and UX experts love talking about making content as accessible as possible on the web. I’m a huge fan of this idea. “Graceful Degradation” and “Progressively Enhancement” are honorable practices that support the notion, which in essence allow us to design for the best and worst technology at the same time. So far so good.
-<!--more-->
 
 It affords everyone an accessible experience, and we certainly don’t want to be held back by the tiny fraction of users still using a certain legacy browser.
 

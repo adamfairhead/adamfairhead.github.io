@@ -7,11 +7,21 @@ class: home
 {% for post in paginator.posts %}
   <header>
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <!-- This article was published {{ post.date | date_to_string }} :) -->
-    <p class="meta">by Adam Fairhead</p>
   </header>
   <div role="main">
-    {{ post.content }}
+    {{ post.excerpt }}
+
+    <p><a href="{{ post.url }}">Permalink</a>
+    {% capture content_words %} 
+      {{ post.content | number_of_words }} 
+    {% endcapture %} 
+    {% capture excerpt_words %} 
+      {{ post.excerpt | number_of_words }} 
+    {% endcapture %} 
+    {% if excerpt_words != content_words %}
+     &nbsp; &nbsp;<a href="{{ post.url }}">Read more…</a>
+    {% endif %}
+    </p>
   </div>
 
   <hr />

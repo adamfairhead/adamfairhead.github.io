@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Adam Fairhead
-class: home
+class: about
 permalink: about/
 title: Meet Adam
 ---

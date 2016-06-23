@@ -5,7 +5,6 @@ title: A new blog begins
 I’ve been putting off really starting this blog for years.
 
 Have you ever considered blogging? If you have, you’ll have felt the excuses that can prevent you from even starting.
-<!--more-->
 
 *“I don’t have the time, I have paying work to do.”*
 
