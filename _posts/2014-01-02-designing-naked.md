@@ -5,7 +5,7 @@ title: Designing Naked
 
 Things are different when you’re exposed.
 
-Most designers and developers are familiar with the “[dribbblization](http://dribbble.com)” of our craft. The notion of showing only your best while hiding the rest has put our polished pixels in shapewear, while our processes are left in the cold.
+Most designers and developers are familiar with the “[dribbblization](http://dribbble.com)” of their craft. The notion of showing only your best while hiding the rest has put our polished pixels in shapewear, while our processes are left in the cold.
 
 Design is both the process of creating things and the product of that process.
 <!--more-->

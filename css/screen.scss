@@ -46,39 +46,36 @@ h2 {
   letter-spacing: -0.02em;
 }
 
-header {
-  margin-bottom: 2em;
-}
-
-
+header { margin-bottom: 2em; }
 
 article {
+  header { margin-bottom: 1em; }
+  header a { color: $base-font-color; }
+  .article-index & { margin-bottom: 5em; }
 
-  header {
-    margin-bottom: 1em;
-  }
-
-  header a {
-    color: $base-font-color;
-  }
-
-  .article-index & {
-    margin-bottom: 5em;
-  }
+  p a,
+  .pagination a { text-decoration: underline; }
 }
 
 ul[role="navigation"] {
   li {
     display: inline-block;
-    margin: 1em .75em;
+    margin: 1em .75em 0;
     font-size: em(14);
+
+    @include media(max-width em(500)) {
+      margin: 1em .5em 0;
+      span { display: none; }
+    }
+
+    @include media(max-width em(340)) {
+      font-size: em(13);
+    }
     
     a {
       color: $light-gray;
 
-      &:hover {
-        color: $base-link-color;
-      }
+      &:hover { color: $base-link-color; }
     }
   }
 }

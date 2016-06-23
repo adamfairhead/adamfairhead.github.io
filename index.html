@@ -19,7 +19,7 @@ class: home
       {{ post.excerpt | number_of_words }} 
     {% endcapture %} 
     {% if excerpt_words != content_words %}
-     &nbsp; &nbsp;<a href="{{ post.url }}">Read more…</a>
+     &nbsp; &nbsp;<a href="{{ post.url }}">Read more</a>
     {% endif %}
     </p>
   </div>
