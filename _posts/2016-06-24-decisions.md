@@ -17,6 +17,7 @@ Take a few minutes to consider…
 
 * Will your decision be the same in the morning?
 * What’s the worst that could happen?
+* Am I the right person to decide?
 * How does it affect the future?
 
 …then decide.
